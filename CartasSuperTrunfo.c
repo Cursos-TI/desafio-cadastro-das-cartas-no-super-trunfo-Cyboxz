@@ -31,11 +31,11 @@ int main() {
 
     printf("Código da cidade: %d \n", codigodacidade);
     printf("Nome da cidade: %s \n", nomedacidade);
-    printf("População da cidade: %.3f \n", populacao);
-    printf("Área da cidade: %.1fkm² \n", area);
+    printf("População da cidade: %f \n", populacao);
+    printf("Área da cidade: %.2fkm² \n", area);
     printf("PIB da cidade: %.2f bilhões de reais\n", pib);
     printf("Pontos turísticos da cidade: %d\n", pontosturisticos);
-    printf("A densidade populacional é: %.4f hab/km²\n", densidadepopulacional);
+    printf("A densidade populacional é: %.2f hab/km²\n", densidadepopulacional);
     printf("O PIB per capita é: %.2f R$ \n", PIBpercapita);
     
 
@@ -59,11 +59,11 @@ int main() {
 
     printf("Código da cidade: %d \n", codigodacidade);
     printf("Nome da cidade: %s \n", nomedacidade);
-    printf("População da cidade: %.3f \n", populacao);
-    printf("Área da cidade: %.1fkm² \n", area);
+    printf("População da cidade: %f \n", populacao);
+    printf("Área da cidade: %.2fkm² \n", area);
     printf("PIB da cidade: %.2f bilhões de reais\n", pib);
     printf("Pontos turísticos da cidade: %d\n", pontosturisticos);
-    printf("A densidade populacional é: %.4f hab/km²\n", densidadepopulacional);
+    printf("A densidade populacional é: %.2f hab/km²\n", densidadepopulacional);
     printf("O PIB per capita é: %.2f R$ \n", PIBpercapita);
 
 
