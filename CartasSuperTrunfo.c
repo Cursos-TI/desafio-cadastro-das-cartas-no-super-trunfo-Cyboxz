@@ -4,9 +4,11 @@ int main() {
 
     int codigodacidade, pontosturisticos;
     float populacao, area, pib;
+    float densidadepopulacional, PIBpercapita;
     char nomedacidade[50];
 
     printf("Digite o Código da cidade: \n");
+
     scanf("%d", &codigodacidade);
 
     printf("Digite o nome da cidade: \n");
@@ -24,13 +26,18 @@ int main() {
     printf("Digite quantos pontos turísticos há na cidade: \n");
     scanf("%d", &pontosturisticos);
 
+    densidadepopulacional = (populacao / area);
+    PIBpercapita = (pib / populacao);
+
     printf("Código da cidade: %d \n", codigodacidade);
     printf("Nome da cidade: %s \n", nomedacidade);
     printf("População da cidade: %.6f \n", populacao);
     printf("Área da cidade: %f \n", area);
     printf("PIB da cidade: %f\n", pib);
     printf("Pontos turísticos da cidade: %d\n", pontosturisticos);
-
+    printf("A densidade populacional é: %f\n", densidadepopulacional);
+    printf("O PIB per capita é: %f\n", PIBpercapita);
+    
 
     printf("Digite o Código da cidade: \n");
     scanf("%d", &codigodacidade);
